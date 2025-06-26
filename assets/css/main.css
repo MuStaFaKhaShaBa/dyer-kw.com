@@ -2126,3 +2126,10 @@ main .head-title{
   padding: 1rem .2rem;
   border-color: transparent var(--bs-gray) var(--bs-gray) transparent;
 }
+
+img{
+  max-width: 100%;
+}
+.materials-list img,.materials-grid img{
+  max-width: 30px;
+}
