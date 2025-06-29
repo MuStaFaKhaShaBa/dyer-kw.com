@@ -10,7 +10,7 @@
 
     <!-- Image 1: Homepage -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-slide-1.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/slider/post-slide-1.webp</image:loc>
       <image:caption>فريق صباغين معتمد في الكويت | تشطيبات فلل ومنازل بدهانات إيطالية مقاومة للحرارة
         والرطوبة</image:caption>
       <image:title>أفضل خدمات الدهانات في الكويت - ضمان 5 سنوات على جميع الأعمال</image:title>
@@ -18,7 +18,7 @@
 
     <!-- Image 2: Homepage -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-slide-2.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/slider/post-slide-2.webp</image:loc>
       <image:caption>تشطيبات جبس بورد ثلاثية الأبعاد بأحدث تصاميم 2024 - أسعار تنافسية مع ضمان
         الجودة</image:caption>
       <image:title>خبراء ديكورات الجبس بورد والدهانات الداخلية في الكويت</image:title>
@@ -26,7 +26,7 @@
 
     <!-- Image 3: Homepage -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-slide-3.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/slider/post-slide-3.webp</image:loc>
       <image:caption>عروض حصرية على ورق الجدران ثلاثي الأبعاد - خصومات تصل إلى 25% للمنازل الجديدة</image:caption>
       <image:title>أجمل تصاميم ورق الحائط والديكورات الحديثة في الكويت</image:title>
     </image:image>
