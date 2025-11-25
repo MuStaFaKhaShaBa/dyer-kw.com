@@ -2168,10 +2168,8 @@ img{
 .ml1 .line2 { bottom: 0; }
 
 .ml1 .letters {
-  color: transparent;
   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
   background-size: 300% 300%;
   animation: gradientMove 4s ease infinite;
   transition: opacity 0.3s ease, background 0.5s ease;

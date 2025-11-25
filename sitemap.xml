@@ -40,42 +40,42 @@
 
     <!-- Image 1: Painting Services -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-landscape-1.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/landscape/post-landscape-1.webp</image:loc>
       <image:caption>فريق صباغين معتمد في الكويت | دهانات داخلية وخارجية بجودة أوروبية وضمان 5 سنوات</image:caption>
       <image:title>أفضل خدمات الصباغة المنزلية في الكويت - ٩٩٦٦٠٣١٠</image:title>
     </image:image>
 
     <!-- Image 2: Gypsum Works -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-landscape-2.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/landscape/post-landscape-2.webp</image:loc>
       <image:caption>تصاميم جبس بورد ثلاثية الأبعاد لأحدث ديكورات الأسقف في الكويت</image:caption>
       <image:title>خبراء تشطيبات الجبس بورد والدهانات الداخلية</image:title>
     </image:image>
 
     <!-- Image 3: Wallpaper Installation -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-landscape-3.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/landscape/post-landscape-3.webp</image:loc>
       <image:caption>تركيب ورق جدران أوروبي بخصومات تصل إلى 25% للمنازل الجديدة</image:caption>
       <image:title>أحدث تصاميم ورق الحائط 2024 في الكويت</image:title>
     </image:image>
 
     <!-- Image 4: Villa Painting -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-landscape-4.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/landscape/post-landscape-4.webp</image:loc>
       <image:caption>تشطيب فلل فاخرة بدهانات جوتن مقاومة للعوامل الجوية في الكويت</image:caption>
       <image:title>صباغة وتشطيبات الفلل السكنية بمواد عالية الجودة</image:title>
     </image:image>
 
     <!-- Image 5: Commercial Painting -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-landscape-5.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/landscape/post-landscape-5.webp</image:loc>
       <image:caption>صباغة المكاتب والمنشآت التجارية بدهانات زيتية عالية التحمل</image:caption>
       <image:title>تشطيبات تجارية بمعايير عالمية في الكويت</image:title>
     </image:image>
 
     <!-- Image 6: Residential Projects -->
     <image:image>
-      <image:loc>https://dyer-kw.com/assets/img/post-landscape-6.webp</image:loc>
+      <image:loc>https://dyer-kw.com/assets/img/landscape/post-landscape-6.webp</image:loc>
       <image:caption>أعمال صباغة شقق سكنية بدهانات ناشونال بدون رائحة وآمنة للأطفال</image:caption>
       <image:title>تشطيبات منزلية عصرية بأسعار تنافسية</image:title>
     </image:image>
@@ -98,7 +98,7 @@
     <!-- Image 1: Residential Painting -->
     <image:image>
       <image:loc>https://dyer-kw.com/assets/img/blog-recent-1.webp</image:loc>
-      <image:caption>فريق صباغ أبو عبدالله المحترف يقوم بأعمال الدهانات الداخلية باستخدام أحدث
+      <image:caption>فريق صباغ أبو كوثر المحترف يقوم بأعمال الدهانات الداخلية باستخدام أحدث
         التقنيات</image:caption>
       <image:title>خدمات صباغة المنازل الشاملة في مناطق الكويت المختلفة</image:title>
     </image:image>
