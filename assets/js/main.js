@@ -162,44 +162,45 @@ const gradients = [
 
 let currentWord = 0;
 const textWrapper = document.querySelector(".ml1 .letters");
+if (textWrapper) {
+  function animateWord(word) {
+    // غيّر النص
+    textWrapper.textContent = word;
 
-function animateWord(word) {
-  // غيّر النص
-  textWrapper?.textContent = word;
+    // غيّر التدرج حسب ترتيب الكلمة
+    const gradient = gradients[currentWord % gradients.length];
+    textWrapper.style.background = gradient;
 
-  // غيّر التدرج حسب ترتيب الكلمة
-  const gradient = gradients[currentWord % gradients.length];
-  textWrapper.style.background = gradient;
+    anime.timeline()
+      .add({
+        targets: ".ml1 .letters",
+        scale: [0.8, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 600,
+      })
+      .add({
+        targets: ".ml1 .line",
+        scaleX: [0, 1],
+        opacity: [0.5, 1],
+        easing: "easeOutExpo",
+        duration: 700,
+        offset: "-=400",
+      })
+      .add({
+        targets: ".ml1",
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000,
+        complete: () => {
+          currentWord = (currentWord + 1) % words.length;
+          textWrapper.parentElement.parentElement.style.opacity = 1;
+          animateWord(words[currentWord]);
+        },
+      });
+  }
 
-  anime.timeline()
-    .add({
-      targets: ".ml1 .letters",
-      scale: [0.8, 1],
-      opacity: [0, 1],
-      translateZ: 0,
-      easing: "easeOutExpo",
-      duration: 600,
-    })
-    .add({
-      targets: ".ml1 .line",
-      scaleX: [0, 1],
-      opacity: [0.5, 1],
-      easing: "easeOutExpo",
-      duration: 700,
-      offset: "-=400",
-    })
-    .add({
-      targets: ".ml1",
-      opacity: 0,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 1000,
-      complete: () => {
-        currentWord = (currentWord + 1) % words.length;
-        textWrapper.parentElement.parentElement.style.opacity = 1;
-        animateWord(words[currentWord]);
-      },
-    });
+  animateWord(words[currentWord]);
 }
-
-animateWord(words[currentWord]);
