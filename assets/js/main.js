@@ -165,7 +165,7 @@ const textWrapper = document.querySelector(".ml1 .letters");
 
 function animateWord(word) {
   // غيّر النص
-  textWrapper.textContent = word;
+  textWrapper?.textContent = word;
 
   // غيّر التدرج حسب ترتيب الكلمة
   const gradient = gradients[currentWord % gradients.length];
